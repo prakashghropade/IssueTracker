@@ -1,0 +1,70 @@
+/* Form styling */
+.issue-form {
+  max-width: 600px; /* Max width for the form */
+  margin: 20px auto; /* Center the form on the page */
+  padding: 20px; /* Padding inside the form */
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading styles */
+h2 {
+  text-align: center; /* Center the heading */
+  color: #2980b9; /* Heading color */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Label styles */
+label {
+  display: block; /* Labels on their own line */
+  margin-bottom: 5px; /* Space below labels */
+  font-weight: bold; /* Bold labels for emphasis */
+  color: #34495e; /* Dark color for readability */
+}
+
+/* Input and textarea styles */
+input[type="text"], textarea, select {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #bdc3c7; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 15px; /* Space below each input */
+}
+
+/* Textarea specific styles */
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+  height: 100px; /* Default height for textarea */
+}
+
+/* Custom select dropdown styles */
+.custom-select {
+  position: relative; /* Positioning for dropdown */
+}
+
+.select-dropdown {
+  position: absolute; /* Position dropdown */
+  top: 100%; /* Position below the select */
+  left: 0; /* Align to the left */
+  right: 0; /* Align to the right */
+  background: #fff; /* Dropdown background */
+  border: 1px solid #bdc3c7; /* Border for dropdown */
+  border-radius: 5px; /* Rounded corners */
+  z-index: 10; /* Above other elements */
+}
+
+/* Button styles */
+.btn {
+  background-color: #2980b9; /* Primary button color */
+  color: #ecf0f1; /* Button text color */
+  padding: 10px 15px; /* Padding for button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn:hover {
+  background-color: #1a6d99; /* Darker button color on hover */
+}

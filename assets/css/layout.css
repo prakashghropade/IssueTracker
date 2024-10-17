@@ -1,0 +1,136 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #09f880;
+  color: #f50404;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0ce23e;
+}
+
+
+header {
+  background-color: #2980b9; /* Bright blue background */
+  color: #ecf0f1; /* Light text color */
+  padding: 20px 20px; /* Padding for spacing */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+nav {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+}
+
+.nav-left {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+}
+
+h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 28px; /* Font size for main heading */
+  font-family: 'Arial', sans-serif; /* Font family */
+}
+
+#home-button {
+  margin-left: 20px; /* Space to the left of the link */
+  padding: 10px 15px; /* Padding for button look */
+  background-color: #ecf0f1; /* Light button background */
+  color: #2980b9; /* Text color for button */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background transition */
+  margin-top: 12px;
+}
+
+#home-button:hover {
+  background-color: #bdc3c7; /* Darker background on hover */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 24px; /* Adjust font size for smaller screens */
+  }
+  #home-button {
+      font-size: 14px; /* Adjust button font size */
+  }
+}
+
+
+footer {
+  background-color: #34495e; 
+  color: #ecf0f1; 
+  padding: 40px 20px; 
+  text-align: center;
+  border-top: 5px solid #2980b9; 
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.nav-left {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+  height: 100%; 
+  margin: auto;
+}
+
+h1 {
+  margin: 0; 
+  font-size: 28px; 
+  font-family: 'Arial', sans-serif; 
+}
+
+h3 {
+  margin: 10px 0 0; 
+  font-size: 16px;
+  font-family: 'Arial', sans-serif; 
+  opacity: 0.8; 
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 24px; 
+  }
+  h3 {
+      font-size: 14px; 
+  }
+}
+
+@media (max-width: 400px) {
+  footer {
+      padding: 30px 15px; 
+  }
+  h1 {
+      font-size: 20px; 
+  }
+}
+

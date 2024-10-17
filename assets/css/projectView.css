@@ -1,0 +1,118 @@
+/* General container styling */
+.container {
+  max-width: 900px; /* Max width for the container */
+  margin: 20px auto; /* Center the container */
+  padding: 20px; /* Padding inside the container */
+  background-color: #f9f9f9; /* Light background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading styles */
+.project-heading {
+  text-align: center; /* Center the main heading */
+  font-size: 32px; /* Font size for the main heading */
+  color: #2980b9; /* Color to match theme */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.project-name {
+  font-size: 24px; /* Font size for project name */
+  color: #34495e; /* Darker color for emphasis */
+  margin: 10px 0; /* Margin above and below */
+}
+
+.project-info {
+  font-size: 16px; /* Font size for project info */
+  color: #2c3e50; /* Darker text color */
+  margin: 5px 0; /* Margin above and below */
+}
+
+/* Section heading styles */
+.section-heading {
+  font-size: 20px; /* Font size for section headings */
+  color: #2980b9; /* Color to match theme */
+  margin-top: 20px; /* Space above section heading */
+}
+
+/* Form styles */
+.filter-form {
+  margin: 20px 0; /* Space above and below the form */
+  padding: 15px; /* Padding for the form */
+  background-color: #ecf0f1; /* Light background for the form */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+  display: block; /* Labels on their own line */
+  margin-bottom: 5px; /* Space below labels */
+  font-weight: bold; /* Bold labels */
+}
+
+/* Input and select styles */
+input[type="text"], select {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #bdc3c7; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Button styles */
+.btn {
+  display: inline-block; /* Button styling */
+  padding: 10px 15px; /* Padding for buttons */
+  margin: 5px; /* Space around buttons */
+  color: #ecf0f1; /* Button text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.btn-primary {
+  background-color: #2980b9; /* Primary button color */
+}
+
+.btn-primary:hover {
+  background-color: #1a6d99; /* Darker color on hover */
+}
+
+.btn-danger {
+  background-color: #e74c3c; /* Danger button color */
+}
+
+.btn-danger:hover {
+  background-color: #c0392b; /* Darker color on hover */
+}
+
+/* Issue list styles */
+.issue-list {
+  list-style-type: none; /* Remove default list style */
+  padding: 0; /* Remove padding */
+}
+
+.issue-item {
+  background-color: #ecf0f1; /* Light background for issues */
+  border: 1px solid #bdc3c7; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Padding inside each issue */
+  margin: 10px 0; /* Margin between issues */
+}
+
+.issue-title {
+  font-size: 18px; /* Font size for issue title */
+  color: #2980b9; /* Color to match theme */
+}
+
+.issue-author {
+  font-size: 16px; /* Font size for issue author */
+  color: #7f8c8d; /* Slightly muted color */
+}
+
+.issue-description {
+  margin: 5px 0; /* Margin above and below description */
+  color: #2c3e50; /* Darker text color for description */
+}
